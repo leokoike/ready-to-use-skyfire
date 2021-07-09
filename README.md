@@ -12,7 +12,7 @@ other versions MAY still be compatible
 
   	- Install Java
 	- Install Maven
-	- Set Maven PATH for your SO
+	- Set Maven PATH for your OS
 
 	- Run on project root:
 		>mvn install:install-file -Dfile=coverage-0.9.jar -DgroupId=edu.gmu.swe -DartifactId=coverage -Dversion=0.9 -Dpackaging=jar
