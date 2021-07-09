@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\AbstractTestGenerator.java">
+<error line="20" severity="warning" message="Ordenação incorrecta para a importação &apos;coverage.graph.Graph&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" column="1" severity="warning" message="Class &apos;AbstractTestGenerator&apos; deve ser declarado como &apos;abstrato&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.AbstractClassNameCheck"/>
+<error line="78" column="5" severity="warning" message="O número de &quot;return&quot;s é 4 (máximo permitido é 3)." source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="96" column="24" severity="warning" message="Variável &apos;testPaths&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="179" column="17" severity="warning" message="Variável &apos;sourceIndex&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="186" column="17" severity="warning" message="Variável &apos;targetIndex&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="246" column="5" severity="info" message="Cyclomatic Complexity is 15 (max recommended is 10)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="248" column="23" severity="warning" message="Variável &apos;mappings&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="332" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="366" column="23" severity="warning" message="Variável &apos;newMappings&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="389" column="23" severity="warning" message="Variável &apos;newMappings&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="413" column="23" severity="warning" message="Variável &apos;newMappings&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\ConstraintMapping.java">
+<error line="56" column="12" severity="warning" message="Mais do que 7 parâmetros." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\CucumberTestGenerator.java">
+<error line="25" severity="warning" message="Ordenação incorrecta para a importação &apos;coverage.graph.InvalidGraphException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="109" column="23" severity="warning" message="Variável &apos;newStrBuf&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="112" column="24" severity="warning" message="Variável &apos;invariant&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="134" column="20" severity="warning" message="Modificador &apos;final&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="171" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="214" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="253" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="270" column="23" severity="warning" message="Variável &apos;newSb&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="271" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="273" severity="warning" message="A estrutura sintáctica &apos;else&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="291" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="293" severity="warning" message="A estrutura sintáctica &apos;else&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="312" severity="warning" message="A estrutura sintáctica &apos;if&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="314" severity="warning" message="A estrutura sintáctica &apos;else&apos; deve utilizar &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="406" column="30" severity="warning" message="Variável &apos;tests&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="473" column="30" severity="warning" message="Variável &apos;tests&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="512" column="63" severity="warning" message="Evite condicionais inline." source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\FsmTest.java">
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\IdentifiableElementType.java">
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\Mapping.java">
+<error line="58" column="12" severity="warning" message="Mais do que 7 parâmetros." source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\ModelAccessor.java">
+<error line="51" column="1" severity="warning" message="Classe deve definir um construtor." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\StateMachineAccessor.java">
+<error line="244" column="22" severity="warning" message="Variável &apos;newCompositeStates&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="293" column="5" severity="info" message="Cyclomatic Complexity is 31 (max recommended is 10)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="293" column="5" severity="info" message="NCSS for this method is 62 (max recommended is 50)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
+<error line="389" column="26" severity="warning" message="Variável &apos;newCompoStateTrans&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="458" column="26" severity="warning" message="Variável &apos;newCompoStateTrans&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="483" column="26" severity="warning" message="Variável &apos;newCompoStateTrans&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="508" column="26" severity="warning" message="Variável &apos;newCompoStateTrans&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="538" column="30" severity="warning" message="Variável &apos;newCompositeStates&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="556" column="30" severity="warning" message="Variável &apos;newCompositeStates&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="574" column="30" severity="warning" message="Variável &apos;newCompositeStates&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="601" column="26" severity="warning" message="Variável &apos;newCompoStateTrans&apos; deve ser declarada final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="652" column="5" severity="info" message="Cyclomatic Complexity is 18 (max recommended is 10)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="665" column="13" severity="info" message="Boolean expression complexity is 5 (max recommended is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.BooleanExpressionComplexityCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\Test.java">
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\TestCoverageCriteria.java">
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\com\mdsol\skyfire\util\JavaSupporter.java">
+<error line="20" severity="warning" message="Ordenação incorrecta para a importação &apos;com.mdsol.skyfire.Mapping&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="C:\Users\Victor\git_projects\MC030\skyfire\src\main\java\Main.java">
+<error line="1" severity="warning" message="Falta a declaração do pacote." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="5" severity="warning" message="Ordenação incorrecta para a importação &apos;com.mdsol.skyfire.CucumberTestGenerator&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" column="1" severity="warning" message="Classe deve definir um construtor." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingCtorCheck"/>
+<error line="8" column="1" severity="warning" message="Classes de utilitário não deve ter um construtor público ou padrão." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="10" column="1" severity="warning" message="Arquivo contém caracteres de tabulação (esta é a primeira instância)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="10" column="29" severity="warning" message="Parâmetro args deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="12" severity="warning" message="try no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="60" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="16" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="17" severity="warning" message="TestCoverageCriteria no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" severity="warning" message="&quot;CruiseControl&quot; no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="20" severity="warning" message="try rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" severity="warning" message="Filho de catch no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" severity="warning" message="Filho de method call no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" severity="warning" message="catch rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" severity="warning" message="try no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="60" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="29" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="30" severity="warning" message="TestCoverageCriteria no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" severity="warning" message="&quot;CruiseControl&quot; no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="33" severity="warning" message="try rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" severity="warning" message="Filho de catch no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" severity="warning" message="Filho de method call no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" severity="warning" message="catch rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="38" severity="warning" message="try no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="60" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="42" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="43" severity="warning" message="TestCoverageCriteria no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" severity="warning" message="&quot;CruiseControl&quot; no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="46" severity="warning" message="try rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" severity="warning" message="Filho de catch no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" severity="warning" message="Filho de method call no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" severity="warning" message="catch rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="51" severity="warning" message="try no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="60" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="55" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="56" severity="warning" message="TestCoverageCriteria no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="57" severity="warning" message="&quot;CruiseControl&quot; no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" severity="warning" message="Paths no nível de indentação 5 não está na indentação correcta, 7" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="31" severity="warning" message="&apos;(&apos; é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="59" severity="warning" message="try rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" severity="warning" message="Filho de catch no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" severity="warning" message="Filho de method call no nível de indentação 8 não está na indentação correcta, 12" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="62" severity="warning" message="catch rcurly no nível de indentação 4 não está na indentação correcta, 8" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="72" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="73" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="75" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="76" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="77" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="78" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="79" severity="warning" message="method def rcurly no nível de indentação 12 não está na indentação correcta, 4" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>

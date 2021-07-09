@@ -1,0 +1,7 @@
+com\mdsol\skyfire\util\MappingTest.class
+com\mdsol\skyfire\util\JavaSupporterTest.class
+com\mdsol\skyfire\AccessingModelsIT.class
+com\mdsol\skyfire\StateMachineAccessorIT.class
+com\mdsol\skyfire\AbstractTestGeneratorIT.class
+com\mdsol\skyfire\AccessingModelsIT$1.class
+com\mdsol\skyfire\CucumberTestGeneratorIT.class

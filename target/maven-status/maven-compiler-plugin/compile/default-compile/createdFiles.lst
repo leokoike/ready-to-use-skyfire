@@ -1,0 +1,12 @@
+com\mdsol\skyfire\Mapping.class
+com\mdsol\skyfire\IdentifiableElementType.class
+com\mdsol\skyfire\AbstractTestGenerator.class
+com\mdsol\skyfire\CucumberTestGenerator.class
+com\mdsol\skyfire\StateMachineAccessor.class
+com\mdsol\skyfire\FsmTest.class
+com\mdsol\skyfire\ModelAccessor.class
+com\mdsol\skyfire\ConstraintMapping.class
+com\mdsol\skyfire\ModelAccessor$1.class
+com\mdsol\skyfire\Test.class
+com\mdsol\skyfire\TestCoverageCriteria.class
+com\mdsol\skyfire\util\JavaSupporter.class
