@@ -1,11 +1,12 @@
 Ready to use skyfire. Based on https://github.com/mdsol/skyfire
 
 Tested and runned with:
+
 	- Windows 7
 	- Java SE-1.7 (jre1.8.0_66)
 	- apache-maven-3.8.1
 
-	other versions MAY still be compatible
+other versions MAY still be compatible
 
  Installation:
 
