@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Uh-LQG6IEe2VZJLxYPYV_A" name="instatus">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Uk6KgG6IEe2VZJLxYPYV_A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_UirV4G6IEe2VZJLxYPYV_A" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_UjEXcG6IEe2VZJLxYPYV_A" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_jz2kcG6JEe2VZJLxYPYV_A" name="create_new_incident" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_ebw64G6IEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lbWGsG6JEe2VZJLxYPYV_A" name="view_incident_details" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_Qm9RwG6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mtLiAG6JEe2VZJLxYPYV_A" name="view_created_incident_details" source="_ebw64G6IEe2VZJLxYPYV_A" target="_Qm9RwG6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_o4hYMG6JEe2VZJLxYPYV_A" name="update_an_incident" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_TR2KsG6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_q1QxsG6JEe2VZJLxYPYV_A" name="view_updated_incident_details" source="_TR2KsG6JEe2VZJLxYPYV_A" target="_Qm9RwG6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tluHIG6JEe2VZJLxYPYV_A" name="delete_this_incident" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_XH2L4G6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kQhk8G_fEe2jL-SFEn_FWA" name="get_incidents" source="_XH2L4G6JEe2VZJLxYPYV_A" target="_8nXh0HViEe2fcPyobSW3nw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AP5IEHM8Ee2-cp3LJ_P7Eg" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CcVxgHM8Ee2-cp3LJ_P7Eg" name="delete_a_incident_from_list" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_XH2L4G6JEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JpG6MHM8Ee2-cp3LJ_P7Eg" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_geXlQHM9Ee2-cp3LJ_P7Eg" name="get_incidents" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_8nXh0HViEe2fcPyobSW3nw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_OlNgcHM_Ee2-cp3LJ_P7Eg" name="not_empty_list" source="_HRh-cHVjEe2fcPyobSW3nw" target="_X-4-EG6IEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GAheYHNGEe2-cp3LJ_P7Eg" name="empty_list" source="_HRh-cHVjEe2fcPyobSW3nw" target="_Bn0_0HNGEe2-cp3LJ_P7Eg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_LpIFoHNGEe2-cp3LJ_P7Eg" name="create_new_incident" source="_Bn0_0HNGEe2-cp3LJ_P7Eg" target="_ebw64G6IEe2VZJLxYPYV_A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_igWqIHNIEe2-cp3LJ_P7Eg" source="_Bn0_0HNGEe2-cp3LJ_P7Eg" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_eti88HVjEe2fcPyobSW3nw" name="verify_size_list" source="_8nXh0HViEe2fcPyobSW3nw" target="_HRh-cHVjEe2fcPyobSW3nw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6lVRQHVlEe2fcPyobSW3nw" source="_ebw64G6IEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cQwqEHVmEe2fcPyobSW3nw" source="_TR2KsG6JEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_eMqWEHVmEe2fcPyobSW3nw" source="_XH2L4G6JEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YHsdoHcAEe2eLczatb7Azg" name="initialize_empty_list" source="_OO6kgHM4Ee2-cp3LJ_P7Eg" target="_Bn0_0HNGEe2-cp3LJ_P7Eg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cIUacHcAEe2eLczatb7Azg" name="initialize_not_empty_list" source="_OO6kgHM4Ee2-cp3LJ_P7Eg" target="_X-4-EG6IEe2VZJLxYPYV_A"/>
+      <subvertex xmi:type="uml:State" xmi:id="_X-4-EG6IEe2VZJLxYPYV_A" name="not_empty_list_incidents" stateInvariant="_Ghc3oHM6Ee2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_Ghc3oHM6Ee2-cp3LJ_P7Eg" name="verifyNotEmptyList">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_EzbIMHM9Ee2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_ebw64G6IEe2VZJLxYPYV_A" name="incident_created" stateInvariant="_ybINIHM6Ee2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_ybINIHM6Ee2-cp3LJ_P7Eg" name="creationSuccess">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_ANs6QHM9Ee2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Qm9RwG6JEe2VZJLxYPYV_A" name="incident_active" stateInvariant="_oRU2IHM7Ee2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_oRU2IHM7Ee2-cp3LJ_P7Eg" name="incidentActiveSuccess">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_Rh1UgHM9Ee2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_TR2KsG6JEe2VZJLxYPYV_A" name="incident_updated" stateInvariant="_kREFsHM7Ee2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_kREFsHM7Ee2-cp3LJ_P7Eg" name="updateSuccess">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_U4j_wHM9Ee2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_XH2L4G6JEe2VZJLxYPYV_A" name="incident_deleted" stateInvariant="_YoMlIHM7Ee2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_YoMlIHM7Ee2-cp3LJ_P7Eg" name="deleteSuccess">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_Xog-4HM9Ee2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_6Q32sG_fEe2jL-SFEn_FWA" name="FinalState"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_OO6kgHM4Ee2-cp3LJ_P7Eg" name="Initial"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Bn0_0HNGEe2-cp3LJ_P7Eg" name="empty_list_incidents" stateInvariant="_zEjHIHNGEe2-cp3LJ_P7Eg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_zEjHIHNGEe2-cp3LJ_P7Eg" name="verifyEmptyList">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_zEjHIXNGEe2-cp3LJ_P7Eg" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_8nXh0HViEe2fcPyobSW3nw" name="resume_incidents"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_HRh-cHVjEe2fcPyobSW3nw" name="is_list_empty?" kind="choice"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Z55SMG6IEe2VZJLxYPYV_A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z555QG6IEe2VZJLxYPYV_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
