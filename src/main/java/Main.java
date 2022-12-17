@@ -9,14 +9,15 @@ public class Main {
 
 	public static void main(String[] args) {
 
-	String path = "./use/dataTypes/DataTypes.uml";
+	// String path = "./use/instatus/instatusV1.uml";
+	String path = "./use/instatus/instatusV2.uml";
 		
 	try {
 			CucumberTestGenerator.generateCucumberScenario (
 					Paths.get (path),
 					TestCoverageCriteria.NODECOVERAGE,
-					"Elevator",
-					Paths.get ("ElevatorNode.feature"));
+					"Instatus",
+					Paths.get ("InstatusNode.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -26,8 +27,8 @@ public class Main {
 			CucumberTestGenerator.generateCucumberScenario (
 					Paths.get (path),
 					TestCoverageCriteria.EDGECOVERAGE,
-					"Elevator",
-					Paths.get ("ElevatorEdge.feature"));
+					"Instatus",
+					Paths.get ("InstatusEdge.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -37,8 +38,8 @@ public class Main {
 			CucumberTestGenerator.generateCucumberScenario (
 					Paths.get (path),
 					TestCoverageCriteria.EDGEPAIRCOVERAGE,
-					"Elevator",
-					Paths.get ("ElevatorEdgePair.feature"));
+					"Instatus",
+					Paths.get ("InstatusEdgePair.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -48,8 +49,8 @@ public class Main {
 			CucumberTestGenerator.generateCucumberScenario (
 					Paths.get (path),
 					TestCoverageCriteria.PRIMEPATHCOVERAGE,
-					"Elevator",
-					Paths.get ("ElevatorPrimePath.feature"));
+					"Instatus",
+					Paths.get ("InstatusPrimePath.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
