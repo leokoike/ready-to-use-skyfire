@@ -26,13 +26,13 @@
       <transition xmi:type="uml:Transition" xmi:id="_cIUacHcAEe2eLczatb7Azg" name="initialize_not_empty_list" source="_OO6kgHM4Ee2-cp3LJ_P7Eg" target="_X-4-EG6IEe2VZJLxYPYV_A"/>
       <transition xmi:type="uml:Transition" xmi:id="_pG3YgH4nEe2G7t1uSAkVJw" name="view_inexistent_incident" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_irLugH4nEe2G7t1uSAkVJw"/>
       <transition xmi:type="uml:Transition" xmi:id="_zPCiYH4nEe2G7t1uSAkVJw" source="_irLugH4nEe2G7t1uSAkVJw" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
-      <transition xmi:type="uml:Transition" xmi:id="_579bcH4pEe2G7t1uSAkVJw" name="update_inexistent_incident" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_irLugH4nEe2G7t1uSAkVJw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_cMWigH4qEe2G7t1uSAkVJw" name="delete_inexistent_incident" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_irLugH4nEe2G7t1uSAkVJw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cMWigH4qEe2G7t1uSAkVJw" name="delete_inexistent_incident" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_o3KHwH5XEe2G7t1uSAkVJw"/>
       <transition xmi:type="uml:Transition" xmi:id="_2kYiAH4xEe2G7t1uSAkVJw" name="create_incident_with_invalid_parameters" source="_Bn0_0HNGEe2-cp3LJ_P7Eg" target="_tM_74H4xEe2G7t1uSAkVJw"/>
       <transition xmi:type="uml:Transition" xmi:id="_DgbhsH4yEe2G7t1uSAkVJw" name="create_incident_with_invalid_parameters" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_tM_74H4xEe2G7t1uSAkVJw"/>
       <transition xmi:type="uml:Transition" xmi:id="_J-vo8H4yEe2G7t1uSAkVJw" source="_tM_74H4xEe2G7t1uSAkVJw" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <transition xmi:type="uml:Transition" xmi:id="_jqa88H4yEe2G7t1uSAkVJw" name="update_incident_with_invalid_parameters" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_gXnvcH4yEe2G7t1uSAkVJw"/>
       <transition xmi:type="uml:Transition" xmi:id="_qS5FwH4yEe2G7t1uSAkVJw" source="_gXnvcH4yEe2G7t1uSAkVJw" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-QNwAH5XEe2G7t1uSAkVJw" source="_o3KHwH5XEe2G7t1uSAkVJw" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <subvertex xmi:type="uml:State" xmi:id="_X-4-EG6IEe2VZJLxYPYV_A" name="not_empty_list_incidents" stateInvariant="_Ghc3oHM6Ee2-cp3LJ_P7Eg">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_Ghc3oHM6Ee2-cp3LJ_P7Eg" name="verifyNotEmptyList">
           <specification xmi:type="uml:LiteralBoolean" xmi:id="_EzbIMHM9Ee2-cp3LJ_P7Eg" value="true"/>
@@ -80,6 +80,11 @@
       <subvertex xmi:type="uml:State" xmi:id="_gXnvcH4yEe2G7t1uSAkVJw" name="fail_incident_update" stateInvariant="_vzPI4H4yEe2G7t1uSAkVJw">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_vzPI4H4yEe2G7t1uSAkVJw" name="errorUpdateIncident">
           <specification xmi:type="uml:LiteralBoolean" xmi:id="_zB3BAH4yEe2G7t1uSAkVJw" value="true"/>
+        </ownedRule>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_o3KHwH5XEe2G7t1uSAkVJw" name="fail_incident_delete" stateInvariant="_6vsPkH5XEe2G7t1uSAkVJw">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_6vsPkH5XEe2G7t1uSAkVJw" name="errorDeleteIncident">
+          <specification xmi:type="uml:LiteralBoolean" xmi:id="_6vsPkX5XEe2G7t1uSAkVJw" value="true"/>
         </ownedRule>
       </subvertex>
     </region>
