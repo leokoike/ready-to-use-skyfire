@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_g4otgCzBEeaEGtvmx1EULw" name="DataTypes" URI="http://www.eclipse.org/papyrus/im/examples/datatypelibrary/1">
+  <packageImport xmi:id="_g8AxoCzBEeaEGtvmx1EULw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_ZpX8MK1LEeuLL7MYEAoaiA" submachineState="_2XytELQdEeu9kfBhIEs6lg">
+    <region xmi:id="_aqHngK1LEeuLL7MYEAoaiA" name="CruiseControlSystem" isLeaf="true">
+      <transition xmi:id="_4GrzMK1LEeuLL7MYEAoaiA" name="carEngineON" redefinedTransition="_4GrzMK1LEeuLL7MYEAoaiA" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_TkYf4LQaEeu9kfBhIEs6lg" name="resume" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_Zuf4wLQaEeu9kfBhIEs6lg" name="accelerate" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_cY30ULQaEeu9kfBhIEs6lg" name="brake" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_eMtwgLQaEeu9kfBhIEs6lg" name="off" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_eaa1ULQaEeu9kfBhIEs6lg" name="on" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_eltfULQaEeu9kfBhIEs6lg" name="carEngineOFF" isLeaf="true" kind="internal" source="_ATWSoK1MEeuLL7MYEAoaiA" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="__rZt0LQaEeu9kfBhIEs6lg" name="on" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_TXkBULQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_Gp6_ILQbEeu9kfBhIEs6lg" name="carEngineON" isLeaf="true" kind="internal" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_T5D58LQbEeu9kfBhIEs6lg" name="accelerator" isLeaf="true" kind="internal" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_Vn2XALQbEeu9kfBhIEs6lg" name="brake" isLeaf="true" kind="internal" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_XiQOMLQbEeu9kfBhIEs6lg" name="carEngineOFF" isLeaf="true" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_ZGGmkLQbEeu9kfBhIEs6lg" name="off" isLeaf="true" kind="internal" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_ZWXQILQbEeu9kfBhIEs6lg" name="resume" isLeaf="true" kind="internal" source="_o_XFoLQYEeu9kfBhIEs6lg" target="_o_XFoLQYEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_e3q8kLQbEeu9kfBhIEs6lg" name="accelerator" source="_TXkBULQZEeu9kfBhIEs6lg" target="_W7kTkLQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_jwcCULQbEeu9kfBhIEs6lg" name="resume" isLeaf="true" kind="internal" source="_TXkBULQZEeu9kfBhIEs6lg" target="_TXkBULQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_2Rj0ILQbEeu9kfBhIEs6lg" name="brake" isLeaf="true" source="_TXkBULQZEeu9kfBhIEs6lg" target="_W7kTkLQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_6woAcLQbEeu9kfBhIEs6lg" name="on" isLeaf="true" kind="internal" source="_TXkBULQZEeu9kfBhIEs6lg" target="_TXkBULQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_9bedILQbEeu9kfBhIEs6lg" name="carEngineOFF" isLeaf="true" source="_TXkBULQZEeu9kfBhIEs6lg" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <transition xmi:id="_A4rj0LQcEeu9kfBhIEs6lg" name="off" isLeaf="true" source="_TXkBULQZEeu9kfBhIEs6lg" target="_W7kTkLQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_EFsSYLQcEeu9kfBhIEs6lg" name="carEngineON" isLeaf="true" kind="internal" source="_TXkBULQZEeu9kfBhIEs6lg" target="_TXkBULQZEeu9kfBhIEs6lg"/>
+      <transition xmi:id="_ZYQboLQdEeu9kfBhIEs6lg" source="_74iOQLQcEeu9kfBhIEs6lg" target="_ATWSoK1MEeuLL7MYEAoaiA"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_74iOQLQcEeu9kfBhIEs6lg" name="Initial26"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ATWSoK1MEeuLL7MYEAoaiA" name="inactive" isLeaf="true"/>
+      <subvertex xmi:type="uml:State" xmi:id="_o_XFoLQYEeu9kfBhIEs6lg" name="active"/>
+      <subvertex xmi:type="uml:State" xmi:id="_TXkBULQZEeu9kfBhIEs6lg" name="crusing"/>
+      <subvertex xmi:type="uml:State" xmi:id="_W7kTkLQZEeu9kfBhIEs6lg" name="standby"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_2XytELQdEeu9kfBhIEs6lg" redefinedState="_ATWSoK1MEeuLL7MYEAoaiA" submachine="_ZpX8MK1LEeuLL7MYEAoaiA"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:id="_KbaMUHg0EeWNk5HYn9T5TA">
+    <eAnnotations xmi:id="_KbcBgHg0EeWNk5HYn9T5TA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_O3lSMLQdEeu9kfBhIEs6lg">
+    <eAnnotations xmi:id="_O3l5QLQdEeu9kfBhIEs6lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
