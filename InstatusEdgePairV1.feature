@@ -21,7 +21,7 @@ When delete_this_incident
 Then deleteSuccess
 
 
-Scenario: initialize_empty_list create_new_incident view_created_incident_details get_incidents verify_size_list not_empty_list view_incident_details delete_this_incident get_incidents verify_size_list empty_list  
+Scenario: initialize_empty_list create_new_incident view_created_incident_details get_incidents verify_size_list not_empty_list view_incident_details delete_this_incident get_incidents verify_size_list not_empty_list create_new_incident  
 
 Given initialize_empty_list
 When create_new_incident
@@ -38,8 +38,10 @@ When delete_this_incident
 Then deleteSuccess
 When get_incidents
 And verify_size_list
-And empty_list
-Then verifyEmptyList
+And not_empty_list
+Then verifyNotEmptyList
+When create_new_incident
+Then creationSuccess
 
 
 Scenario: initialize_not_empty_list view_incident_details get_incidents verify_size_list not_empty_list view_incident_details update_an_incident view_updated_incident_details update_an_incident view_updated_incident_details delete_this_incident get_incidents verify_size_list not_empty_list create_new_incident view_created_incident_details update_an_incident  
@@ -75,11 +77,11 @@ When update_an_incident
 Then updateSuccess
 
 
-Scenario: initialize_not_empty_list view_incident_details get_incidents verify_size_list not_empty_list delete_a_incident_from_list get_incidents verify_size_list empty_list  
+Scenario: initialize_not_empty_list delete_a_incident_from_list get_incidents verify_size_list not_empty_list delete_a_incident_from_list get_incidents verify_size_list not_empty_list create_new_incident  
 
 Given initialize_not_empty_list
-When view_incident_details
-Then incidentActiveSuccess
+When delete_a_incident_from_list
+Then deleteSuccess
 When get_incidents
 And verify_size_list
 And not_empty_list
@@ -88,8 +90,10 @@ When delete_a_incident_from_list
 Then deleteSuccess
 When get_incidents
 And verify_size_list
-And empty_list
-Then verifyEmptyList
+And not_empty_list
+Then verifyNotEmptyList
+When create_new_incident
+Then creationSuccess
 
 
 Scenario: initialize_not_empty_list create_new_incident  
@@ -133,42 +137,10 @@ When view_updated_incident_details
 Then incidentActiveSuccess
 
 
-Scenario: initialize_not_empty_list view_incident_details get_incidents verify_size_list not_empty_list  
-
-Given initialize_not_empty_list
-When view_incident_details
-Then incidentActiveSuccess
-When get_incidents
-And verify_size_list
-And not_empty_list
-Then verifyNotEmptyList
-
-
-Scenario: initialize_not_empty_list view_incident_details get_incidents verify_size_list empty_list  
-
-Given initialize_not_empty_list
-When view_incident_details
-Then incidentActiveSuccess
-When get_incidents
-And verify_size_list
-And empty_list
-Then verifyEmptyList
-
-
 Scenario: initialize_empty_list create_new_incident  
 
 Given initialize_empty_list
 When create_new_incident
 Then creationSuccess
-
-
-Scenario: initialize_empty_list  
-
-Given initialize_empty_list
-
-
-Scenario: initialize_not_empty_list  
-
-Given initialize_not_empty_list
 
 

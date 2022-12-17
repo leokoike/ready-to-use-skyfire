@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 
 	// String path = "./use/dataTypes/DataTypes.uml";
-	String path = "./use/dataTypes/instatus.uml";
+	String path = "./use/dataTypes/instatusV1.uml";
 		
 	try {
 			CucumberTestGenerator.generateCucumberScenario (

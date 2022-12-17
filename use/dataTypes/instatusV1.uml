@@ -14,12 +14,10 @@
       <transition xmi:type="uml:Transition" xmi:id="_kQhk8G_fEe2jL-SFEn_FWA" name="get_incidents" source="_XH2L4G6JEe2VZJLxYPYV_A" target="_8nXh0HViEe2fcPyobSW3nw"/>
       <transition xmi:type="uml:Transition" xmi:id="_AP5IEHM8Ee2-cp3LJ_P7Eg" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <transition xmi:type="uml:Transition" xmi:id="_CcVxgHM8Ee2-cp3LJ_P7Eg" name="delete_a_incident_from_list" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_XH2L4G6JEe2VZJLxYPYV_A"/>
-      <transition xmi:type="uml:Transition" xmi:id="_JpG6MHM8Ee2-cp3LJ_P7Eg" source="_X-4-EG6IEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <transition xmi:type="uml:Transition" xmi:id="_geXlQHM9Ee2-cp3LJ_P7Eg" name="get_incidents" source="_Qm9RwG6JEe2VZJLxYPYV_A" target="_8nXh0HViEe2fcPyobSW3nw"/>
       <transition xmi:type="uml:Transition" xmi:id="_OlNgcHM_Ee2-cp3LJ_P7Eg" name="not_empty_list" source="_HRh-cHVjEe2fcPyobSW3nw" target="_X-4-EG6IEe2VZJLxYPYV_A"/>
       <transition xmi:type="uml:Transition" xmi:id="_GAheYHNGEe2-cp3LJ_P7Eg" name="empty_list" source="_HRh-cHVjEe2fcPyobSW3nw" target="_Bn0_0HNGEe2-cp3LJ_P7Eg"/>
       <transition xmi:type="uml:Transition" xmi:id="_LpIFoHNGEe2-cp3LJ_P7Eg" name="create_new_incident" source="_Bn0_0HNGEe2-cp3LJ_P7Eg" target="_ebw64G6IEe2VZJLxYPYV_A"/>
-      <transition xmi:type="uml:Transition" xmi:id="_igWqIHNIEe2-cp3LJ_P7Eg" source="_Bn0_0HNGEe2-cp3LJ_P7Eg" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <transition xmi:type="uml:Transition" xmi:id="_eti88HVjEe2fcPyobSW3nw" name="verify_size_list" source="_8nXh0HViEe2fcPyobSW3nw" target="_HRh-cHVjEe2fcPyobSW3nw"/>
       <transition xmi:type="uml:Transition" xmi:id="_6lVRQHVlEe2fcPyobSW3nw" source="_ebw64G6IEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
       <transition xmi:type="uml:Transition" xmi:id="_cQwqEHVmEe2fcPyobSW3nw" source="_TR2KsG6JEe2VZJLxYPYV_A" target="_6Q32sG_fEe2jL-SFEn_FWA"/>
