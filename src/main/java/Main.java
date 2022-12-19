@@ -17,7 +17,7 @@ public class Main {
 					Paths.get (path),
 					TestCoverageCriteria.NODECOVERAGE,
 					"Instatus",
-					Paths.get ("InstatusNode.feature"));
+					Paths.get ("InstatusNodeV2.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -28,7 +28,7 @@ public class Main {
 					Paths.get (path),
 					TestCoverageCriteria.EDGECOVERAGE,
 					"Instatus",
-					Paths.get ("InstatusEdge.feature"));
+					Paths.get ("InstatusEdgeV2.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -39,7 +39,7 @@ public class Main {
 					Paths.get (path),
 					TestCoverageCriteria.EDGEPAIRCOVERAGE,
 					"Instatus",
-					Paths.get ("InstatusEdgePair.feature"));
+					Paths.get ("InstatusEdgePairV2.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -50,7 +50,7 @@ public class Main {
 					Paths.get (path),
 					TestCoverageCriteria.PRIMEPATHCOVERAGE,
 					"Instatus",
-					Paths.get ("InstatusPrimePath.feature"));
+					Paths.get ("InstatusPrimePathV2.feature"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
